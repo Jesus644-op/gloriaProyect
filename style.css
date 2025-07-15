@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  header {
+    background: #c8102e;
+    padding: 1rem;
+    text-align: center;
+  }
+  header img {
+    max-width: 150px;
+  }
+  nav {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  nav a {
+    color: #c8102e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a.active {
+    text-decoration: underline;
+  }
+  .contenido {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .producto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .formulario-contacto label {
+    display: block;
+    margin: 1rem 0 0.25rem;
+  }
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #c8102e;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #a50d24;
+  }
+  iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+  }
+  .imagen-banner {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  .promo-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.8rem;
+    box-shadow: 0 4px 10px rgba(200,16,46,0.25);
+  }
